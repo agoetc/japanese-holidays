@@ -4,7 +4,7 @@
 
 - 配信 URL: https://agoetc.github.io/japanese-holidays/holidays.csv
 - 出典: [内閣府「国民の祝日」について](https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html)（`syukujitsu.csv`）
-- 更新: GitHub Actions が毎月1日に取得し、変更があれば自動コミット
+- 更新: GitHub Actions が毎月1日に取得してコミット（確認日は `docs/last-checked.txt`。変更がない月もコミットするのは、60日間活動のないリポジトリの定期実行を GitHub が止めるため）
 
 ## フォーマット
 
